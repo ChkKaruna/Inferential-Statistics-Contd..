@@ -1,0 +1,44 @@
+Example 1. AT&T was running commercials in 1990 aimed at luring back customers who had switched to one of the other long-distance phone service providers. One such commercial shows a businessman trying to reach Phoenix and mistakenly getting Fiji, where a half-naked native on a beach responds incomprehensibly in Polynesian. When asked about this advertisement, AT&T admitted that the portrayed incident did not actually take place but added that this was an enactment of something that “could happen.” Suppose that one in 200 long-distance telephone calls is misdirected. 
+           What is the probability that at least one in five attempted telephone calls reaches the wrong number? (Assume independence of attempts.)
+           Hint: [Using Probability formula evaluate the probability of one call being wrong out of five attempted calls]
+Solution: P (One in 200 long-distance telephone calls is misdirected) = 1/200
+          P (Successful calls) =1-P (misdirected calls) = 1-1/200 = 199/200
+          P (at least one in five attempts goes to wrong number) = 1 – P (all five attempts are successful)
+          = 1 – 199/200 * 199/200 * 199/200 * 199/200 * 199/200
+          = 1-(199/200)5   
+          = 1 – 0.975
+          = 0.025         
+          
+Example 2. Returns on a certain business venture, to the nearest $1,000, are known to follow the following probability distribution
+                  X         P(x)
+                -2000       0.1
+                -1000       0.1
+                  0         0.2
+                1000        0.2
+                2000        0.3
+                3000        0.1
+          
+        (i)   What is the most likely monetary outcome of the business venture?
+              Hint: [The outcome is most likely the expected returns of the venture]
+        Solution: The most likely outcome of the business is $2000 with highest probability of 0.3 (30%) 
+                   = getting return 600$
+
+        (ii)  Is the venture likely to be successful? Explain.
+              Hint: [Probability of % of venture being a successful one]
+        Solution: The probability that the returns would be greater than 0 is 0.6 (60%). So, the business is likely to be successful.
+                  [We can take into positive probability value (positive return) to measure success of this venture (0.2+0.3+0.1) = 0.6 (take 0.1 as 10%)]
+
+        (iii) What is the long-term average earning of business ventures of this kind? Explain.
+              Hint: [Here, the expected returns to the venture is considered as the
+                    the required average]
+        Solution: Long term average earning potential considers both positive and negative returns [Expected value of the business]
+                  = (-2000) * 0.1 + (-1000) * 0.1 + 0 * 0.2 + (1000) * 0.2 + (2000) * 0.3 + (3000) * 0.1
+                  = -200 – 100 + 0 + 200 + 600 + 300
+                  = $800
+                  
+        (iv)  What is the good measure of the risk involved in a venture of this kind? Compute this measure. 
+              Hint: [Risk here stems from the possible variability in the expected returns, therefore, name the risk measure for this venture]
+        Solution: The measure the risk in a business venture we have to find out the point of Variation from the mean (Variance) and Standard Deviation.
+                  Variance for the above values for 10 business days = 2160000
+                  Standard Deviation = 1469.694
+
